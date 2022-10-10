@@ -18,7 +18,7 @@ const config = {
 			crawl: true,
 			enabled: true,
 			onError: "fail",
-			entries:["*"]
+			entries:["*", "/api/games.json"]
 		},
 		appDir: 'internal'
 	},
