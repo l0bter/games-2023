@@ -1,5 +1,9 @@
 import { json } from "@sveltejs/kit"
 
+export const prerender = "true"
+export const ssr = true
+export const csr = false
+
 export const GET = async () => {
     const games = import.meta.glob('/static/games/*/info.json')
     const data = await Promise.all(Object.entries(games).map(async ([path, resolver]) => {
