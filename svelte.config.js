@@ -7,7 +7,6 @@ const dev = process.env.NODE_ENV === 'development';
 const config = {
 	kit: {
 		adapter: static_adapter({
-			fallback: "index.html",
 		}),
 		paths: {
             base: dev ? '' : '/games-2023',
