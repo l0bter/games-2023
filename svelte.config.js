@@ -7,9 +7,7 @@ const dev = process.env.NODE_ENV === 'development';
 const config = {
 	kit: {
 		adapter: static_adapter({
-			pages:"build",
-			assets:"build",
-			fallback: "404.html",
+			fallback: "index.html",
 		}),
 		paths: {
             base: dev ? '' : '/games-2023',
@@ -20,7 +18,6 @@ const config = {
 			crawl: true,
 			enabled: true,
 			onError: "fail",
-			entries: ['*']
 		}
 	},
 	preprocess: [
