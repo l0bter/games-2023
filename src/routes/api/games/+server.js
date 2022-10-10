@@ -8,8 +8,8 @@ export const GET = async () => {
         const match = path.match(reg)
 
         return {
-            path: "/game/" + match[1],
-            gamePath: "/games/" + match[1] + "/index.html",
+            path: "game/" + match[1],
+            gamePath: "games/" + match[1] + "/index.html",
             slug: match[1],
             metadata: await resolver()
         }
