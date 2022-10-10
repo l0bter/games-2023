@@ -13,9 +13,9 @@
 		<link rel="modulepreload" href="/games-2023/internal/immutable/components/pages/_layout.svelte-b938c6d9.js">
 		<link rel="modulepreload" href="/games-2023/internal/immutable/modules/pages/_layout.js-04cad6c0.js">
 		<link rel="modulepreload" href="/games-2023/internal/immutable/chunks/_layout-0ebf6292.js">
-		<link rel="modulepreload" href="/games-2023/internal/immutable/components/pages/_page.svelte-4ab32873.js">
-		<link rel="modulepreload" href="/games-2023/internal/immutable/modules/pages/_page.js-a1fed7e1.js">
-		<link rel="modulepreload" href="/games-2023/internal/immutable/chunks/_page-911d8f48.js">
+		<link rel="modulepreload" href="/games-2023/internal/immutable/components/pages/game/_slug_/_page.svelte-305c6ab7.js">
+		<link rel="modulepreload" href="/games-2023/internal/immutable/modules/pages/game/_slug_/_page.js-f04da74f.js">
+		<link rel="modulepreload" href="/games-2023/internal/immutable/chunks/_page-1fbe9822.js">
 	</head>
 	<body>
 		<div>
@@ -25,15 +25,14 @@
             <img class="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"></div>
           <div class="hidden sm:ml-6 sm:block"><div class="flex space-x-4"><h1 class="text-gray-300 px-3 py-2 text-lg font-bold">CAHS CS</h1></div></div></div></div></div></header>
 
+<h2>Interesting Title</h2>
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8"><div class="m-6 p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"><a href="/games-2023/game/test-game"><h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Interesting Title</h5></a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Compelling description</p>
-            <a href="/games-2023/game/test-game" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">View Page
-                <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a>
-        </div></div>
+<iframe src="/games-2023/games/test-game/index.html" title="Interesting Title" width="720" height="405"></iframe> 
+
+<a href="/games-2023/games/test-game/index.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">Full Game...</a>
 
 
-		<script type="module" data-sveltekit-hydrate="1l3q3bq">
+		<script type="module" data-sveltekit-hydrate="1wuzd8t">
 			import { start } from "/games-2023/internal/immutable/start-3b62275b.js";
 
 			start({
@@ -41,14 +40,14 @@
 				hydrate: {
 					status: 200,
 					error: null,
-					node_ids: [0, 2],
-					params: {},
-					routeId: "",
+					node_ids: [0, 3],
+					params: {slug:"test-game"},
+					routeId: "game/[slug]",
 					data: (function(a){return [a,a]}(null)),
 					form: null
 				},
 				paths: {"base":"/games-2023","assets":"/games-2023"},
-				target: document.querySelector('[data-sveltekit-hydrate="1l3q3bq"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="1wuzd8t"]').parentNode,
 				trailing_slash: "never"
 			});
 		</script>
