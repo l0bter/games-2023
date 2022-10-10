@@ -14,19 +14,20 @@ const config = {
 		paths: {
             base: dev ? '' : '/games-2023',
 			// assets: dev ? '' : '/games-2023'
-        }
+        },
+		
+		prerender: {
+			crawl: true,
+			enabled: true,
+			onError: "fail",
+			entries: ['*']
+		}
 	},
 	preprocess: [
 		preprocess({
 			postcss: true,
 		}),
 	],
-	prerender: {
-		crawl: true,
-		enabled: true,
-		force: false,
-		pages: ['*']
-	}
 };
 
 export default config;
