@@ -11,7 +11,6 @@ const config = {
 		}),
 		paths: {
             base: dev ? '' : '/games-2023',
-			assets: ""
 			// assets: dev ? '' : '/games-2023'
         },
 		
@@ -20,7 +19,8 @@ const config = {
 			enabled: true,
 			onError: "fail",
 			entries:["/"]
-		}
+		},
+		appDir: 'internal'
 	},
 	preprocess: [
 		preprocess({
