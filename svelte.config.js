@@ -7,10 +7,13 @@ const dev = process.env.NODE_ENV === 'development';
 const config = {
 	kit: {
 		adapter: static_adapter({
-			fallback: "index.html"
+			pages:"build",
+			assets:"build",
+			fallback: "404.html",
 		}),
 		paths: {
             base: dev ? '' : '/games-2023',
+			// assets: dev ? '' : '/games-2023'
         }
 	},
 	preprocess: [
@@ -21,7 +24,8 @@ const config = {
 	prerender: {
 		crawl: true,
 		enabled: true,
-		onError: 'fail'
+		force: false,
+		pages: ['*']
 	}
 };
 

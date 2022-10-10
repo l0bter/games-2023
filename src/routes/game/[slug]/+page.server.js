@@ -1,6 +1,7 @@
 import { base } from '$app/paths';
 
 export const ssr = true
+export const csr = false
 
 export const load = async ({ fetch, params }) => {
     const response = await fetch(`${base}/api/games`)

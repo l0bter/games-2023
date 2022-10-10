@@ -1,6 +1,8 @@
 <script>
     import "../app.css";
     export const prerender = true
+    export const ssr = true
+    export const csr = false
 </script>
 
 <header class="bg-gray-800">
