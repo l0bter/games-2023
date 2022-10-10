@@ -1,0 +1,1 @@
+import{b as o}from"./paths-846459bd.js";const s=async({fetch:e})=>({games:await(await e(`${o}/api/games.json`)).json()}),r=Object.freeze(Object.defineProperty({__proto__:null,load:s},Symbol.toStringTag,{value:"Module"}));export{r as _,s as l};
