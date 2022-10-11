@@ -1,11 +1,11 @@
 {
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "internal/immutable/start-388ea414.js",
+    "file": "internal/immutable/start-1c0c1733.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-d963d406.js",
-      "_singletons-8fc732c7.js",
+      "_singletons-593a9ebc.js",
       "_paths-846459bd.js"
     ],
     "dynamicImports": [
@@ -16,23 +16,24 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "internal/immutable/components/pages/_layout.svelte-b938c6d9.js",
+    "file": "internal/immutable/components/pages/_layout.svelte-51cec7fc.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-d963d406.js"
+      "_index-d963d406.js",
+      "_paths-846459bd.js"
     ],
     "css": [
       "internal/immutable/assets/_layout-42263210.css"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "internal/immutable/components/error.svelte-c408b79a.js",
+    "file": "internal/immutable/components/error.svelte-a77f608d.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-d963d406.js",
-      "_singletons-8fc732c7.js"
+      "_singletons-593a9ebc.js"
     ]
   },
   "src/routes/+page.svelte": {
@@ -79,8 +80,8 @@
       "__page-1fbe9822.js"
     ]
   },
-  "_singletons-8fc732c7.js": {
-    "file": "internal/immutable/chunks/singletons-8fc732c7.js",
+  "_singletons-593a9ebc.js": {
+    "file": "internal/immutable/chunks/singletons-593a9ebc.js",
     "imports": [
       "_index-d963d406.js",
       "_paths-846459bd.js"
@@ -108,7 +109,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "internal/immutable/chunks/0-d2576dd9.js",
+    "file": "internal/immutable/chunks/0-8af4218e.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -117,7 +118,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "internal/immutable/chunks/1-4e9fef11.js",
+    "file": "internal/immutable/chunks/1-6bbcf9ef.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
